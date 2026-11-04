@@ -1,0 +1,221 @@
+---
+name: Calm Clarity
+colors:
+  surface: '#faf8ff'
+  surface-dim: '#d2d9f4'
+  surface-bright: '#faf8ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f2f3ff'
+  surface-container: '#eaedff'
+  surface-container-high: '#e2e7ff'
+  surface-container-highest: '#dae2fd'
+  on-surface: '#131b2e'
+  on-surface-variant: '#3d4947'
+  inverse-surface: '#283044'
+  inverse-on-surface: '#eef0ff'
+  outline: '#6d7a77'
+  outline-variant: '#bcc9c6'
+  surface-tint: '#006a61'
+  primary: '#00685f'
+  on-primary: '#ffffff'
+  primary-container: '#008378'
+  on-primary-container: '#f4fffc'
+  inverse-primary: '#6bd8cb'
+  secondary: '#4648d4'
+  on-secondary: '#ffffff'
+  secondary-container: '#6063ee'
+  on-secondary-container: '#fffbff'
+  tertiary: '#006947'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#00855b'
+  on-tertiary-container: '#f5fff6'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#89f5e7'
+  primary-fixed-dim: '#6bd8cb'
+  on-primary-fixed: '#00201d'
+  on-primary-fixed-variant: '#005049'
+  secondary-fixed: '#e1e0ff'
+  secondary-fixed-dim: '#c0c1ff'
+  on-secondary-fixed: '#07006c'
+  on-secondary-fixed-variant: '#2f2ebe'
+  tertiary-fixed: '#6ffbbe'
+  tertiary-fixed-dim: '#4edea3'
+  on-tertiary-fixed: '#002113'
+  on-tertiary-fixed-variant: '#005236'
+  background: '#faf8ff'
+  on-background: '#131b2e'
+  surface-variant: '#dae2fd'
+typography:
+  display-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 34px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.005em
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.03em
+  currency-display:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 38px
+    letterSpacing: -0.03em
+  currency-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '700'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  margin: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system establishes an executive-grade personal management interface that bridges high-trust fintech tracking and focused personal productivity. The brand aesthetic balances precision, calm authority, and frictionless utility. It rejects noisy gamification in favor of structured clarity, deep visual order, and deliberate spatial rhythm.
+
+Targeted at ambitious individuals managing complex daily schedules, multi-account liquidity, loans, and personal habits, the visual character draws from modern Swiss-style functionalism fused with ambient physical depth. The interface evokes feelings of financial control, mental clarity, and effortless execution. Surfaces rely on high-clarity contrast between deep slate structure and crisp neutral canvases, punctuated by deliberate semantic color coding that highlights actionable states without overwhelming the user.
+
+## Colors
+
+The palette is engineered around an authoritative Slate foundation paired with an intelligent functional spectrum:
+
+- **Primary (`#0D9488` Teal)**: Signifies stability, primary interactive triggers, active navigation markers, and holistic balance.
+- **Secondary (`#6366F1` Indigo / Violet)**: Drives habit routines, time blocks, intellectual workflows, and productivity indicators.
+- **Tertiary (`#10B981` Emerald)**: Reserved exclusively for positive financial deltas, completed habits, cash inflows, and healthy balance metrics.
+- **Neutral (`#0F172A` Deep Slate)**: Serves as the primary typographic anchor and high-emphasis architectural container fill, counterbalanced by `#1E293B` for secondary text and dark borders, with canvas backgrounds grounded in crisp `#F8FAFC` and elevated cards in `#FFFFFF`.
+
+### Functional Semantic Extensions
+- **Expense & Overdue**: Coral Rose (`#F43F5E`) denotes debit actions, overdue deadlines, and urgent balance deductions.
+- **Lent / Borrowed & Obligations**: Amber Gold (`#F59E0B`) highlights pending receivables, liabilities, and caution-level thresholds.
+- **Privacy Masking**: Tap-to-reveal privacy layers utilize `#E2E8F0` solid tokens with subtle frosted overlays to obscure financial figures in public spaces.
+
+## Typography
+
+The typography uses Plus Jakarta Sans for its geometric balance, open counterforms, and legible numeric tabular alignments.
+
+- **Numerics & Currency**: Tabular figures (`tnum`) must be enforced for all currency fields, balance widgets, and transaction tables. The Bangladeshi Taka symbol (`৳`) aligns at 90% cap-height with a 2px horizontal kern against leading digits to prevent visual clipping.
+- **Hierarchy Rules**: Display headings are restricted to main balances and daily dashboard greetings. Screen titles stay within `headline-lg` and `headline-md`. Secondary descriptive text remains clamped at `body-md` or `body-sm` using Slate-500 (`#64748B`) to keep visual weight focused on values and actions.
+
+## Layout & Spacing
+
+The layout model is optimized primarily for vertical mobile scanning with horizontal contextual snap-swiping.
+
+- **Grid Architecture**: Mobile screens use a 4-column fluid layout with an outer canvas margin of `1.25rem` (20px) and a column gutter of `1rem` (16px). For larger tablet displays, the system shifts to an 8-column layout with `1.5rem` margins.
+- **Vertical Rhythm**: Related elements inside component groups maintain `space-xs` (4px) to `space-sm` (8px) distance. Card internal padding defaults to `space-lg` (24px) for focal metric cards and `space-md` (16px) for item rows. Section transitions use `space-xl` (32px).
+- **Safe Zones & Action Anchors**: Bottom navigation bars and floating triggers honor platform safe-area insets plus a baseline lift of `1rem` to ensure natural thumb-reach ergonomics without accidental edge-swipe collisions.
+
+## Elevation & Depth
+
+Visual depth is achieved through layered structural tones reinforced by soft, tinted ambient diffusion rather than harsh drop shadows.
+
+- **Level 0 (Canvas Base)**: `#F8FAFC` flat surface.
+- **Level 1 (Structural Cards)**: `#FFFFFF` surface accompanied by a hairline border (`1px solid #F1F5F9`) and an ambient shadow: `0 4px 20px -2px rgba(15, 23, 42, 0.04), 0 2px 6px -1px rgba(15, 23, 42, 0.02)`.
+- **Level 2 (Interactive Floating Elements & Modals)**: `#FFFFFF` or `#0F172A` surfaces utilizing `0 12px 32px -4px rgba(15, 23, 42, 0.08), 0 4px 12px -2px rgba(15, 23, 42, 0.04)`.
+- **Level 3 (Floating Action Trigger / Overlay Flyouts)**: Elevated with a colored atmospheric shadow: `0 10px 25px -3px rgba(13, 148, 136, 0.35)`.
+- **Tap-to-Reveal Depth**: Masked monetary components transition to a recessed, subtle inset border state with a tinted background (`#F1F5F9`) to indicate obscured data.
+
+## Shapes
+
+The interface embraces a tailored, friendly geometry using unified curvature scales:
+
+- **Standard Containers & Cards**: Rely on `rounded-2xl` (1rem / 16px) to create calm, discrete modules.
+- **Hero Modules & Bottom Sheets**: Use `rounded-3xl` (1.5rem / 24px) on outer profiles and top sheet margins.
+- **Interactive Badges, Metric Chips & Pills**: Built with full-radius pill silhouettes (`rounded-full`) to differentiate metadata tags from structural content cards.
+- **Input Fields & Action Controls**: Standardize on a continuous `0.75rem` (12px) curve for high touch-point affordance.
+
+## Components
+
+### Buttons & Interactive Triggers
+- **Primary Action**: Full-width or inline rounded-xl heights (48px mobile hit-target) saturated in `#0D9488`, featuring bold high-contrast white text. Micro-feedback includes a scaled 0.98 press state.
+- **Secondary Action**: Background `#F0FDFA` with `#0D9488` typography and a transparent border.
+- **Floating Action Trigger (FAT)**: A 56px circular or expanded pill trigger resting pinned above the bottom navigation bar, surfaced in `#0F172A` or `#0D9488` with an embedded plus icon to launch quick transaction logging or task creation.
+
+### Cards & Metric Containers
+- **Financial Balance Card**: High-contrast dark card option (`#0F172A`) or clean light card (`#FFFFFF`) with `rounded-2xl` corners, displaying net balance, discrete privacy toggle icon, and horizontal quick-split sub-cards for income (`#10B981`) and expenses (`#F43F5E`).
+- **Debt & Loan Card (Lent/Borrowed)**: White card structure with an Amber Gold (`#F59E0B`) vertical indicator border (3px left stroke), explicit return dates, and counterpart avatar pills.
+
+### Habit Rings & Progress Bars
+- **Progress Trackers**: 8px thickness rounded stroke tracks using light neutral fills (`#E2E8F0`), with filled state in `#6366F1` (Productivity) or `#10B981` (Completed Goals).
+- **Circular Habit Rings**: 44px concentric SVG rings providing multi-habit completion tracking with centered numeric percentages.
+
+### Badges & Filter Chips
+- **Status Pills**: Compact padding (4px vertical, 10px horizontal), utilizing low-saturation background tints paired with full-saturation text (e.g., Coral tint `#FFE4E6` with `#E11D48` text for "Due Today").
+
+### Lists & Transaction Rows
+- **List Items**: Clean separation using whitespace rather than divider lines; left-aligned category icon container (40px rounded-xl with semantic tint), middle two-line text (title + subtitle), and right-aligned dual-stack currency and timestamp.
+
+### Form Inputs & Privacy Controls
+- **Inputs**: 52px tall, neutral background (`#F8FAFC`), 1px solid border (`#E2E8F0`) transitioning to `#0D9488` on focus with a 3px soft teal halo (`rgba(13, 148, 136, 0.15)`).
+- **Privacy Mask**: Dedicated eye toggle in headers replaces financial figures with a smooth pill-shaped dot sequence (`••••••`), operable globally or per card.

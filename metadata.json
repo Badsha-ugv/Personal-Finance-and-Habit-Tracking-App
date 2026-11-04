@@ -1,0 +1,6 @@
+{
+  "name": "Calm Clarity",
+  "description": "Executive personal management interface bridging liquidity tracking, loans, and focused habit routines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
